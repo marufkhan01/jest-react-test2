@@ -6,6 +6,7 @@
   "author": "Jesper Orb <jesperorb@gmail.com> (https://jesperorb.com/)",
   "license": "MIT",
   "dependencies": {
+    "8": "^0.0.1",
     "babel-eslint": "^8.2.1",
     "babel-polyfill": "^6.26.0",
     "enzyme": "3.2.0",
