@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 const propTypes = {
   message: PropTypes.shape({
     type: PropTypes.string,

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component should render as expected 1`] = `
+<form
+  className="flex flex-col items-center w-1/2 mx-auto mt-8"
+  data-test="form"
+  onSubmit={[Function]}
+>
+  <Message
+    message={
+      Object {
+        "body": "",
+        "type": "",
+      }
+    }
+  />
+  <label
+    className="mb-4 w-full"
+    htmlFor="email"
+  >
+    Email 
+    <br />
+    <input
+      className="my-4 p-2 rounded shadow border w-full"
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="zero@cool.gg"
+      type="email"
+      value=""
+    />
+  </label>
+  <label
+    className="mb-4  w-full"
+    htmlFor="password"
+  >
+    Password 
+    <br />
+    <input
+      className="mb-8 mt-4 p-2 rounded shadow border  w-full"
+      id="password"
+      name="password"
+      onChange={[Function]}
+      placeholder="8 length, 1 uppercase, 1 digit"
+      type="password"
+      value=""
+    />
+  </label>
+  <input
+    className="bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded"
+    type="submit"
+    value="Login"
+  />
+</form>
+`;

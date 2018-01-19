@@ -1,13 +1,17 @@
 {
   "name": "jest-react-testing-2",
-  "description" : "Example react app to use for testing and reaching code coverage",
+  "description": "Example react app to use for testing and reaching code coverage",
   "private": true,
   "version": "0.1.0",
   "author": "Jesper Orb <jesperorb@gmail.com> (https://jesperorb.com/)",
   "license": "MIT",
   "dependencies": {
+    "8": "^0.0.1",
+    "babel-eslint": "^8.2.1",
+    "babel-polyfill": "^6.26.0",
     "enzyme": "3.2.0",
     "enzyme-adapter-react-16": "1.1.1",
+    "nvm": "^0.0.4",
     "prop-types": "15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -21,6 +25,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
+    "enzyme-to-json": "^3.3.0",
     "eslint": "4.15.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-config-prettier": "2.9.0",
